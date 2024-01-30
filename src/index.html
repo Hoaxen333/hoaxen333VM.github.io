@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="lg:grid grid-cols-3 bg-primary">
+        <div class="col-span-1">
+            <div>
+                <div class="flex justify-between align-middle lg:justify-center">
+                    <a href="#"><img src="assets/logo-light.svg" alt="sm.corsair logo"></a>
+                    <i id="ham" class="bi bi-list text-5xl cursor-pointer lg:hidden" ></i>
+                </div>
+                <nav  class="flex flex-col justify-center text-center lg:text-xl ">
+                    <ul id="navi" class="hidden lg:block">
+                        <li><a href="#" class="text-quaternary hover:text-primary hover:bg-quaternary hover:rounded-full hover:px-1 hover:py-1transition ease-in-out duration-3000">Home <i class="bi bi-house"></i> </a></li>
+                        <li><a href="#" class="text-quaternary hover:text-primary hover:bg-quaternary hover:rounded-full hover:px-1 hover:py-1 transition ease-in-out duration-3000">About us <i class="bi bi-question-circle-fill"></i> </a></li>
+                        <li><a href="#" class="text-quaternary hover:text-primary hover:bg-quaternary hover:rounded-full hover:px-1 hover:py-1 transition ease-in-out duration-3000">Get in touch <i class="bi bi-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        <main class="font-lafont bg-secondary col-span-2 pb-4 pt-2 mx-5 px-4 rounded-tl rounded-tr  lg:mx-0">
+            <div class="flex justify-center md:justify-end">
+                <a href="#" class="text-quaternary btn border-quaternary lg:border-2 hover:bg-quaternary hover:text-secondary transition ease-in-out duration-3000">Login</a>
+                <a href="#" class="text-quaternary ml-2 btn  border-quaternary lg:border-2 hover:bg-quaternary hover:text-secondary transition ease-in duration-3000">Sign Up</a>
+            </div>
+            <h1 class="font-bold text-3xl text-quaternary pt-4">Free PBX Instalation Guide</h1>
+            <article class="mx-6">
+                <h2 class="font-semibold text-lg text-quaternary">What is Free PBX ?</h2>
+                <p class="font-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident laborum cumque a aperiam, delectus odit repellat beatae recusandae dolorum ea voluptatem at harum officia asperiores iure maxime odio esse.
+                </p>
+            </article>
+            <article class="mx-6">
+                <h2 class="font-semibold text-lg font-lafont text-quaternary">How to install it?</h2>
+                <p class="font-paragraph">
+                    Follow the next steps to install the Free PBX Server.
+                </p>
+                <ul class="font-paragraph">
+                    <li>&#x2022; Open Virtual Box.</li>
+                    <li>&#x2022; Select the <strong class="text-quaternary">New</strong> option, to create a new virtual machine.</li>
+                    <li>&#x2022; Fill the name input (eg.VOIPSERVER).</li>
+                    <li>&#x2022; Select the folder, where you want to create the new virtual machine.</li>
+                    <li>&#x2022; Select the ISO file of the server.</li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture1.svg" alt="picture showing the first 3 steps" class="rounded-3xl"></div>
+
+                    <li>&#x2022; Click the <strong class="text-quaternary">Finish</strong> button.</li>
+                    <li>&#x2022; Go to <strong class="text-quaternary">settings</strong>.</li>
+                    <li> &#x2022; Select the option <strong class="text-quaternary">Network</strong>.</li>
+                    <li>&#x2022; Change the Network Adapter from NAT to <strong class="text-quaternary">Bridged Adapter</strong>.</li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture2.svg" alt="picture showing the Network Adapter Settings" class="rounded-3xl"></div>
+
+                    <li>&#x2022; Start the Virtual Machine that you just created.</li>
+                    <p>This will show up, here you choose one version of Free PBX.</p>
+                    <div class="flex justify-center my-2"><img src="assets/Picture4.svg" alt="List of Free PBX version" class="rounded-3xl"></div>
+                    <p>I will be installing the third option.</p>
+                    <li>Then this screen will apear and you will choose one output option.</li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture5.svg" alt="" class="rounded-3xl"></div>
+
+                    <p>After that, this will show up in your screen,</p>
+                    <div class="flex justify-center my-2"><img src="assets/Picture6.svg" alt="" class="rounded-3xl"></div>
+                    <p>just click enter.</p>
+
+                    <li>&#x2022;Wait until this show up</li>
+                    <div class="flex justify-center my-2"><img src="assets/Picture7.svg" alt="" class="rounded-3xl"></div>
+                    <li>If you want to add a password just click in the <strong class="text-quaternary">ROOT PASSWORD</strong>
+                    option and set the password</li>
+                    <li>&#x2022; Wait for the end of the instalation process then click <strong class="text-quaternary">Reboot</strong></li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture9.svg" alt="" class="rounded-3xl"></div>
+
+                    <li>&#x2022; Close your virtual machine.</li>
+                    <li>&#x2022; Open virtual box.</li>
+                    <li>&#x2022; Go to <strong class="text-quaternary">settings</strong>.</li>
+                    <li>&#x2022; Go to <strong class="text-quaternary">storage</strong>.</li>
+                    <li>&#x2022; Then remove the instalation midia.</li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture10.svg" alt="" class="rounded-3xl"></div>
+
+                    <li>&#x2022; Start your machine again.</li>
+                    <p>When this apears</p>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture11.svg" alt="" class="rounded-3xl"></div>
+
+                    <p>Input <strong class="text-quaternary">root</strong> for username,
+                    and for the password input the one that you just set on the earlier stage. If you didn't set any, just click enter.
+                    </p>
+                    <p>This will show up and your server is on!!</p>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture12.svg" alt="" class="rounded-3xl"></div>
+
+                    <li>Access the graphical user interface of Free PBX by searching the provided IP Adress in the browser.</li>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture13.svg" alt="" class="rounded-3xl"></div>
+
+                    <p>In the first interaction there will be a sign up page just fill it, then click <strong class="text-quaternary">Setup System.</strong></p>
+
+                    <div class="flex justify-center my-2"><img src="assets/Picture14.svg" alt="" class="rounded-3xl"></div>
+
+                    <p>This will show up </p>
+                    <div class="flex justify-center my-2"><img src="assets/Picture15.svg" alt="" class="rounded-3xl"></div>
+
+                    <li>&#x2022; Select the <strong class="text-quaternary">Free PBX Administration</strong> option.</li>
+                    <li>&#x2022; Choose the language.</li>
+                    <p>And finaly when this show up</p>
+                    <div class="flex justify-center my-2"><img src="assets/Picture16.svg" alt="" class="rounded-3xl"></div>
+                    <p>Just click the <strong class="text-quaternary">Abort option</strong> then <strong class="text-quaternary">Apply Config</strong>.</p>
+                </ul>
+            </article>
+        </main>
+    </div>
+    <footer class="font-lafont">
+        <div class="text-white bg-ternary py-2">
+            <div class="flex justify-center"><img src="assets/logo-light.svg" alt=""></div>
+            <p class="text-center">Spreading the basics of everything</p>
+            
+        </div>
+        <div class="flex justify-center bg-ternary py-2">
+            <p class="text-white">Copyright &copy;2023 sm.corsair. Designed By <strong class="">Mohamad Ibraimo</strong></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
